@@ -1,11 +1,13 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "name": "nord-syntax",
   "description": "Nord syntax theme",
   "theme": "syntax",
   "repository": "https://github.com/choco14t/inkdrop-nord-syntax-theme",
   "license": "MIT",
-  "styleSheets": ["default.less"],
+  "styleSheets": [
+    "default.less"
+  ],
   "author": "choco14t<chocoh14t@gmail.com>",
   "engines": {
     "inkdrop": "^4.x"
