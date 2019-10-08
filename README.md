@@ -8,7 +8,7 @@ This Repository is only syntax theme. If you want to install fully Nord theme, y
 
 ## Screenshot
 
-![screenshot](./Screenshot.png)
+![screenshot](https://github.com/choco14t/inkdrop-nord-syntax-theme/blob/master/Screenshot.png)
 
 ## Instllation
 
