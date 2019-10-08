@@ -1,9 +1,10 @@
 {
-  "version": "1.0.0",
-  "name": "default-light-syntax",
-  "description": "Default light syntax theme",
+  "version": "0.0.0",
+  "name": "nord-syntax",
+  "description": "Nord syntax theme",
   "theme": "syntax",
   "styleSheets": ["default.less"],
+  "author": "choco14t<chocoh14t@gmail.com>",
   "engines": {
     "inkdrop": "^4.x"
   }
