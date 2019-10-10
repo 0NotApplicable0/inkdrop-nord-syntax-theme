@@ -1,7 +1,6 @@
-@import "./colors";
+@import './colors';
 
 .editor {
-
   .CodeMirror {
     // Background color of main window
     background-color: @nord0;
@@ -62,7 +61,7 @@
     color: @nord2;
   }
   .CodeMirror .CodeMirror-linewidget img.inline-widget {
-    background: rgba(0,0,0,0.05);
+    background: rgba(0, 0, 0, 0.05);
   }
   .CodeMirror-searching {
     // Ctrl + F results
@@ -157,7 +156,8 @@
     }
 
     // carriage return
-    .CodeMirror-code > div > pre > span::after, .CodeMirror-line > span::after {
+    .CodeMirror-code > div > pre > span::after,
+    .CodeMirror-line > span::after {
       color: @nord0;
       opacity: 0.4;
     }
@@ -171,7 +171,8 @@
       background: rgba(0, 0, 0, 0.01);
     }
 
-    .cm-table-sep, .table-row.table-row-1 {
+    .cm-table-sep,
+    .table-row.table-row-1 {
       color: @nord14;
     }
 
@@ -191,8 +192,8 @@
     background-color: @nord6;
   }
 
-  [class*='list-line'] .cm-keyword:not(.cm-formatting-list-ul) {
+  [class*='list-line']
+    .cm-keyword:not(.cm-formatting-list-ul):not(.cm-link):not(.cm-inline-code) {
     color: @nord4;
   }
-
 }

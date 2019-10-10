@@ -10,7 +10,7 @@ This Repository is only syntax theme. If you want to install fully Nord theme, y
 
 ![screenshot](https://raw.githubusercontent.com/choco14t/inkdrop-nord-syntax-theme/master/Screenshot.png)
 
-## Instllation
+## Installation
 
 ```sh
 $ ipm install nord-syntax
