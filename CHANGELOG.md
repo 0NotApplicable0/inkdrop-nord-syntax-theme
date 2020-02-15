@@ -19,3 +19,9 @@ Darken CodeMirror placeholder.
 Merged at [#6](https://github.com/choco14t/inkdrop-nord-syntax-theme/pull/6)
 
 Thanks again [@tawara_san](https://twitter.com/tawara_san) san!!
+
+## v1.2.0
+
+* Lighten selection background color
+* Darken code blocks
+* Wrapped the matched text with outline
