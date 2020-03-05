@@ -25,3 +25,7 @@ Thanks again [@tawara_san](https://twitter.com/tawara_san) san!!
 * Lighten selection background color
 * Darken code blocks
 * Wrapped the matched text with outline
+
+## v1.3.0
+
+* Darken inline code
