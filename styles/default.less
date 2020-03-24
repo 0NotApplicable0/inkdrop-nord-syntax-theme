@@ -182,14 +182,19 @@
   }
 
   /* Active Line Highlight support */
-  .CodeMirror-activeline-background {
-    background-color: @nord6;
-  }
-  .CodeMirror-activeline .CodeMirror-linenumber {
-    background-color: @nord6;
-  }
-  .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background-color: @nord6;
+  .CodeMirror-activeline {
+    .CodeMirror-activeline-background, .CodeMirror-activeline-gutter {
+      background-color: #434C5ECC;
+    }
+    .CodeMirror-linenumber {
+      color: @nord4;
+    }
+    .CodeMirror-foldgutter-open:after {
+      color: @nord4;
+    }
+    .CodeMirror-foldgutter-folded:after {
+      color: @nord4;
+    }
   }
 
   [class*='list-line']
