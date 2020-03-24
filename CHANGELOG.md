@@ -29,3 +29,9 @@ Thanks again [@tawara_san](https://twitter.com/tawara_san) san!!
 ## v1.3.0
 
 * Darken inline code
+
+## v1.4.0
+
+* Support active line highlight
+
+Merged at [#10](https://github.com/choco14t/inkdrop-nord-syntax-theme/pull/10)
