@@ -1,5 +1,8 @@
 # Nord Syntax
 
+![Inkdrop Plugin Version](https://inkdrop-plugin-badge.vercel.app/api/version/nord-syntax&style=for-the-badge)
+![Inkdrop Plugin Downloads](https://inkdrop-plugin-badge.vercel.app/api/downloads/nord-syntax&style=for-the-badge)
+
 Nord syntax theme for Inkdrop.
 
 ### Note
