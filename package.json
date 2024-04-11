@@ -9,11 +9,11 @@
   "repository": "https://github.com/choco14t/inkdrop-nord-syntax-theme",
   "license": "MIT",
   "styleSheets": [
-    "default.less"
+    "index.css"
   ],
   "author": "choco14t<chocoh14t@gmail.com>",
   "engines": {
-    "inkdrop": "^5.x"
+    "inkdrop": "^5.8.0"
   },
   "devDependencies": {
     "less": "^3.11.3"
