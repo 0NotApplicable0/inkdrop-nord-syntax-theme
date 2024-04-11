@@ -3,6 +3,9 @@
   "name": "nord-syntax",
   "description": "Nord syntax theme",
   "theme": "syntax",
+  "scripts": {
+    "build": "lessc styles/less/default.less ./styles/index.css"
+  },
   "repository": "https://github.com/choco14t/inkdrop-nord-syntax-theme",
   "license": "MIT",
   "styleSheets": [
@@ -10,6 +13,9 @@
   ],
   "author": "choco14t<chocoh14t@gmail.com>",
   "engines": {
-    "inkdrop": "^4.x"
+    "inkdrop": "^5.x"
+  },
+  "devDependencies": {
+    "less": "^3.11.3"
   }
 }
