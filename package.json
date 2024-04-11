@@ -6,14 +6,21 @@
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css"
   },
-  "repository": "https://github.com/choco14t/inkdrop-nord-syntax-theme",
+  "repository": "https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme",
   "license": "MIT",
   "styleSheets": [
     "index.css"
   ],
   "author": "choco14t<chocoh14t@gmail.com>",
+  "contributors": [
+    {
+      "name": "0NotApplicable0",
+      "email": "nick@splitrock.dev",
+      "url": "https://splitrock.dev"
+    }
+  ],
   "engines": {
-    "inkdrop": "^5.8.0"
+    "inkdrop": "^5.8.X"
   },
   "devDependencies": {
     "less": "^3.11.3"
