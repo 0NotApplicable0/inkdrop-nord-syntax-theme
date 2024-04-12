@@ -3,13 +3,26 @@
   "name": "nord-syntax",
   "description": "Nord syntax theme",
   "theme": "syntax",
-  "repository": "https://github.com/choco14t/inkdrop-nord-syntax-theme",
+  "scripts": {
+    "build": "lessc styles/less/default.less ./styles/index.css"
+  },
+  "repository": "https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme",
   "license": "MIT",
   "styleSheets": [
-    "default.less"
+    "index.css"
   ],
   "author": "choco14t<chocoh14t@gmail.com>",
+  "contributors": [
+    {
+      "name": "0NotApplicable0",
+      "email": "nick@splitrock.dev",
+      "url": "https://splitrock.dev"
+    }
+  ],
   "engines": {
-    "inkdrop": "^4.x"
+    "inkdrop": "^5.8.X"
+  },
+  "devDependencies": {
+    "less": "^3.11.3"
   }
 }
