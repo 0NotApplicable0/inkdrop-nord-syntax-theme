@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.5.0](https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme/compare/v1.4.0...v1.5.0) (2024-04-12)
+
+
+### Features
+
+* update systems to match standard ([5d46d71](https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme/commit/5d46d715d8da0d80293352c1564f11c666ad5bb1))
+
 # Change log
 
 ## v1.0.0
