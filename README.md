@@ -1,7 +1,7 @@
 # Nord Syntax
 
-![Inkdrop Plugin Version](https://inkdrop-plugin-badge.vercel.app/api/version/nord-syntax&style=for-the-badge)
-![Inkdrop Plugin Downloads](https://inkdrop-plugin-badge.vercel.app/api/downloads/nord-syntax&style=for-the-badge)
+![Inkdrop Plugin Version](https://inkdrop-plugin-badge.vercel.app/api/version/nord-syntax?style=for-the-badge)
+![Inkdrop Plugin Downloads](https://inkdrop-plugin-badge.vercel.app/api/downloads/nord-syntax?style=for-the-badge)
 
 Nord syntax theme for Inkdrop.
 
@@ -11,7 +11,7 @@ This Repository is only syntax theme. If you want to install fully Nord theme, y
 
 ## Screenshot
 
-![screenshot](https://raw.githubusercontent.com/choco14t/inkdrop-nord-syntax-theme/master/Screenshot.png)
+![image](https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme/assets/32582432/15efa92e-8c34-4e0b-95cc-7a3316ef336d)
 
 ## Installation
 
