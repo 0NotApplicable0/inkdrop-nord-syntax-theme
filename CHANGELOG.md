@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme/compare/v1.6.1...v1.7.0) (2024-05-01)
+
+
+### Features
+
+* support v5.8.1 ([#3](https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme/issues/3)) ([9e8781c](https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme/commit/9e8781caf5a047e34120424810da289a13d8efa8))
+
 ## [1.5.0](https://github.com/0NotApplicable0/inkdrop-nord-syntax-theme/compare/v1.4.0...v1.5.0) (2024-04-12)
 
 
