@@ -4,6 +4,9 @@
 }
 .editor .CodeMirror {
   background-color: #2E3440;
+}
+.editor .CodeMirror,
+.editor .mde-preview .codeblock pre {
   color: #D8DEE9;
 }
 .editor .CodeMirror-scroll {
@@ -54,102 +57,139 @@
   outline: 1px solid #8FBCBB;
   background-color: transparent;
 }
-.editor .CodeMirror .CodeMirror-placeholder {
+.editor .CodeMirror .CodeMirror-placeholder,
+.editor .mde-preview .codeblock pre .CodeMirror-placeholder {
   color: #D8DEE999;
 }
-.editor .CodeMirror .cm-atom {
+.editor .CodeMirror .cm-atom,
+.editor .mde-preview .codeblock pre .cm-atom {
   color: #81A1C1;
 }
-.editor .CodeMirror .cm-formatting-list.cm-variable-3 {
+.editor .CodeMirror .cm-formatting-list.cm-variable-3,
+.editor .mde-preview .codeblock pre .cm-formatting-list.cm-variable-3 {
   color: #D08770;
 }
-.editor .CodeMirror .cm-keyword {
+.editor .CodeMirror .cm-keyword,
+.editor .mde-preview .codeblock pre .cm-keyword {
   color: #81A1C1;
 }
-.editor .CodeMirror .cm-formatting-list.cm-variable-2 {
+.editor .CodeMirror .cm-formatting-list.cm-variable-2,
+.editor .mde-preview .codeblock pre .cm-formatting-list.cm-variable-2 {
   color: #88C0D0;
 }
-.editor .CodeMirror .cm-url {
+.editor .CodeMirror .cm-url,
+.editor .mde-preview .codeblock pre .cm-url {
   color: #8FBCBB !important;
 }
 .editor .CodeMirror .cm-string,
-.editor .CodeMirror .cm-hr {
+.editor .mde-preview .codeblock pre .cm-string,
+.editor .CodeMirror .cm-hr,
+.editor .mde-preview .codeblock pre .cm-hr {
   color: #A3BE8C;
 }
-.editor .CodeMirror .cm-string-2 {
+.editor .CodeMirror .cm-string-2,
+.editor .mde-preview .codeblock pre .cm-string-2 {
   color: #8FBCBB;
 }
-.editor .CodeMirror .cm-number {
+.editor .CodeMirror .cm-number,
+.editor .mde-preview .codeblock pre .cm-number {
   color: #B48EAD;
 }
 .editor .CodeMirror .cm-attribute,
-.editor .CodeMirror .cm-plus {
+.editor .mde-preview .codeblock pre .cm-attribute,
+.editor .CodeMirror .cm-plus,
+.editor .mde-preview .codeblock pre .cm-plus {
   color: #5E81AC;
 }
 .editor .CodeMirror .cm-def,
-.editor .CodeMirror .cm-property {
+.editor .mde-preview .codeblock pre .cm-def,
+.editor .CodeMirror .cm-property,
+.editor .mde-preview .codeblock pre .cm-property {
   color: #88C0D0;
 }
-.editor .CodeMirror .cm-variable {
+.editor .CodeMirror .cm-variable,
+.editor .mde-preview .codeblock pre .cm-variable {
   color: #8FBCBB;
 }
-.editor .CodeMirror .cm-operator {
+.editor .CodeMirror .cm-operator,
+.editor .mde-preview .codeblock pre .cm-operator {
   color: #81A1C1;
 }
 .editor .CodeMirror .cm-meta,
-.editor .CodeMirror .cm-bracket {
+.editor .mde-preview .codeblock pre .cm-meta,
+.editor .CodeMirror .cm-bracket,
+.editor .mde-preview .codeblock pre .cm-bracket {
   color: #8FBCBB;
 }
-.editor .CodeMirror .cm-comment {
+.editor .CodeMirror .cm-comment,
+.editor .mde-preview .codeblock pre .cm-comment {
   color: #4C566A;
   font-style: italic;
 }
 .editor .CodeMirror .cm-error,
-.editor .CodeMirror .cm-minus {
+.editor .mde-preview .codeblock pre .cm-error,
+.editor .CodeMirror .cm-minus,
+.editor .mde-preview .codeblock pre .cm-minus {
   color: #BF616A;
 }
-.editor .CodeMirror .cm-formatting-header {
+.editor .CodeMirror .cm-formatting-header,
+.editor .mde-preview .codeblock pre .cm-formatting-header {
   color: #81A1C1 !important;
 }
-.editor .CodeMirror .cm-header {
+.editor .CodeMirror .cm-header,
+.editor .mde-preview .codeblock pre .cm-header {
   color: #8FBCBB;
 }
-.editor .CodeMirror .cm-link {
+.editor .CodeMirror .cm-link,
+.editor .mde-preview .codeblock pre .cm-link {
   color: #A3BE8C;
   text-underline-position: under;
 }
-.editor .CodeMirror .cm-rangeinfo {
+.editor .CodeMirror .cm-rangeinfo,
+.editor .mde-preview .codeblock pre .cm-rangeinfo {
   color: #D08770;
 }
 .editor .CodeMirror .cm-qualifier,
+.editor .mde-preview .codeblock pre .cm-qualifier,
 .editor .CodeMirror .cm-builtin,
-.editor .CodeMirror .cm-tag {
+.editor .mde-preview .codeblock pre .cm-builtin,
+.editor .CodeMirror .cm-tag,
+.editor .mde-preview .codeblock pre .cm-tag {
   color: #88C0D0;
 }
-.editor .CodeMirror .cm-quote {
+.editor .CodeMirror .cm-quote,
+.editor .mde-preview .codeblock pre .cm-quote {
   color: #B48EAD;
   font-style: italic;
 }
-.editor .CodeMirror .cm-whitespace::before {
+.editor .CodeMirror .cm-whitespace::before,
+.editor .mde-preview .codeblock pre .cm-whitespace::before {
   color: #4C566A;
 }
 .editor .CodeMirror .CodeMirror-code > div > pre > span::after,
-.editor .CodeMirror .CodeMirror-line > span::after {
+.editor .mde-preview .codeblock pre .CodeMirror-code > div > pre > span::after,
+.editor .CodeMirror .CodeMirror-line > span::after,
+.editor .mde-preview .codeblock pre .CodeMirror-line > span::after {
   color: #2E3440;
   opacity: 0.4;
 }
-.editor .CodeMirror .cm-inline-code {
+.editor .CodeMirror .cm-inline-code,
+.editor .mde-preview .codeblock pre .cm-inline-code {
   background: rgba(0, 0, 0, 0.1);
   color: #8FBCBB;
 }
-.editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
+.editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground,
+.editor .mde-preview .codeblock pre .gfm-codeblock-bg.CodeMirror-linebackground {
   background: rgba(0, 0, 0, 0.1);
 }
 .editor .CodeMirror .cm-table-sep,
-.editor .CodeMirror .table-row.table-row-1 {
+.editor .mde-preview .codeblock pre .cm-table-sep,
+.editor .CodeMirror .table-row.table-row-1,
+.editor .mde-preview .codeblock pre .table-row.table-row-1 {
   color: #A3BE8C;
 }
-.editor .CodeMirror .cm-formatting-code-block {
+.editor .CodeMirror .cm-formatting-code-block,
+.editor .mde-preview .codeblock pre .cm-formatting-code-block {
   color: #8FBCBB;
 }
 .editor .CodeMirror-activeline .CodeMirror-activeline-background,

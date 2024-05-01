@@ -20,7 +20,7 @@
     }
   ],
   "engines": {
-    "inkdrop": "5.8.x"
+    "inkdrop": "^5.8.1"
   },
   "devDependencies": {
     "less": "^3.11.3"
